@@ -5,9 +5,9 @@ const Somepage = () => {
   return (
     <div>
       <h1>Какая-то страница EN</h1>
-      <a href="/en">
+      <Link href="/en">
         <button>Назад</button>
-      </a>
+      </Link>
     </div>
   );
 };

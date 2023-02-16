@@ -1,17 +1,17 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
 
 const Page = () => (
   <div>
     <h1>Текущая локализация: Русская</h1>
-    <a href="/en">
+    <Link href="/en">
       <button>Перейти на english локализацию</button>
-    </a>
+    </Link>
     <br />
     <br />
-    <a href="/en/Somepage">
+    <Link href="/en/Somepage">
       <button>Перейти на somepage</button>
-    </a>
+    </Link>
   </div>
 );
 
