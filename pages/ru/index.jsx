@@ -9,7 +9,7 @@ const Page = () => (
     </Link>
     <br />
     <br />
-    <Link href="/en/Somepage">
+    <Link href="/ru/Somepage">
       <button>Перейти на somepage</button>
     </Link>
   </div>
